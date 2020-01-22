@@ -1,0 +1,56 @@
+#container-design{
+	width: 97%;
+	height: auto;
+	border: 1px solid black;
+	
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#container-fluid-design{
+	border: 2px solid white;
+
+}
+#heading-one:hover{
+	color: white;
+}
+#h-four1:hover{
+	color: red;
+}
+#h-five1:hover{
+	color: blue;
+}
+#h-five2:hover{
+	color: green;
+}
+.far{
+	font-size: 40px;
+}
+#home:hover{
+    background: #23404a;
+    font-size: 1.3em;
+}
+#contact:hover{
+    background: #23404a;
+    font-size: 1.3em;
+}
+#project:hover{
+    background: #23404a;
+    font-size: 1.3em;
+}
+#firt-button:hover{
+	background: orange;
+}
+#img-one:hover{
+	background-image: url("anil2.jpeg");
+	position: relative;
+}
+#container-fluid-design-two{
+	border: 1px solid transparent;
+    background: radial-gradient(#176326, #00000014);
+    box-shadow: 14px -2px 9px black;
+}
+
