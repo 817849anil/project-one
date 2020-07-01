@@ -4,6 +4,9 @@
 	border: 1px solid black;
 	
 }
+body{
+	box-sizing: border-box;
+}
 
 *{
 	padding: 0px;
@@ -13,6 +16,10 @@
 #container-fluid-design{
 	border: 2px solid white;
 
+}
+#heading-one{
+	box-shadow: inset 0 0 16px 5px black;
+}
 }
 #heading-one:hover{
 	color: white;
@@ -52,5 +59,98 @@
 	border: 1px solid transparent;
     background: radial-gradient(#176326, #00000014);
     box-shadow: 14px -2px 9px black;
+}
+#container-full-design{
+	position: relative;
+	left: 35%;
+}
+@media(max-width: 480px){
+	#profileimage img{
+		width: 150px;
+		height: auto;
+
+	}
+	.container-fluid h3{
+		font-size: 18px;
+	}
+	.container-fluid h5{
+		font-size: 12px;
+	}
+	#firt-button{
+        width: 164px;
+        height: 54px;
+	}
+	#heading-one{
+		font-size: 18px;
+		display: block;
+		width: 40%;
+		position: relative;
+		left: 29%;
+	}
+	#anigif{
+		height: 50px;
+	}
+	#pch{
+		font-size: 15px;
+	}
+	#container-fluid-design-two h4{
+		font-size: 16px;
+	}
+	#eml{
+		font-size: 15px;
+	}
+	#footercontact{
+		font-size: 12px;
+	}
+	#footerindex{
+		font-size: 12px;
+	}
+	
+
+	/*#container-fluid-design-two{
+        width: 70px;
+        height: 40px;
+        margin-left: -5px;
+	}
+	#h-four1{
+         margin-right:20px;
+         font-size: 20px;
+         color: white;
+
+	}*/
+}
+@media(max-width: 780px){
+	#heading-one{
+		font-size: 20px;
+		display: block;
+		width: 40%;
+		position: relative;
+		left: 29%;
+        box-shadow: inset 0 0 7px 1px black;
+
+	}
+
+}
+@media(min-width: 1200px){
+	#heading-one{
+		font-size: 37px;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	#heading-one:hover{
+		color: dimgray;
+	}
+
+}
+@media(min-width: 481px) and (max-width: 779px){
+	#anigif{
+		height: 70px;
+	}
+}
+@media(min-width: 781px) and (max-width: 1100px){
+	#heading-one{
+		font-size: 28px;
+	}
 }
 
